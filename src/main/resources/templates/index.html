@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow | Home</title>
+    <link rel="stylesheet" th:href="@{/css/site.css}">
+</head>
+<body>
+<header class="topbar">
+    <div class="shell">
+        <a class="brand" th:href="@{/}">
+            <strong>BOOKMYSHOW</strong>
+            <span>Book cinema nights with a clean Spring Boot frontend</span>
+        </a>
+        <nav class="nav">
+            <a th:href="@{/movies}">Movies</a>
+            <a th:href="@{/theatres}">Theatres</a>
+            <a th:href="@{/shows}">Shows</a>
+            <a th:href="@{/login}">Login</a>
+            <a class="cta" th:href="@{/register}">Create account</a>
+        </nav>
+    </div>
+</header>
+
+<main class="shell">
+    <section class="hero">
+        <div class="hero-card">
+            <span class="eyebrow">Now Running</span>
+            <h1>Find a movie, pick a screen, and lock the seat before it disappears.</h1>
+            <p>
+                This frontend is powered by Thymeleaf and your existing Spring Boot backend.
+                Browse the current catalogue, explore theatres, and check upcoming shows from one place.
+            </p>
+            <div class="hero-actions">
+                <a class="button button-primary" th:href="@{/movies}">Browse Movies</a>
+                <a class="button button-secondary" th:href="@{/shows}">See Shows</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="card stat">
+                <strong th:text="${#lists.size(movies)}">0</strong>
+                <span>Movies available</span>
+            </div>
+            <div class="card stat">
+                <strong th:text="${#lists.size(theatres)}">0</strong>
+                <span>Theatres listed</span>
+            </div>
+            <div class="card stat">
+                <strong th:text="${#lists.size(shows)}">0</strong>
+                <span>Shows scheduled</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-head">
+            <div>
+                <h2>Featured Movies</h2>
+                <p>Recent catalog from your database.</p>
+            </div>
+            <a class="button button-secondary" th:href="@{/movies}">View all movies</a>
+        </div>
+        <div class="grid">
+            <article class="card" th:each="movie : ${movies}">
+                <h3 th:text="${movie.title}">Movie Title</h3>
+                <div class="badge-row">
+                    <span class="badge" th:text="${movie.genre != null ? movie.genre : 'Genre TBA'}">Genre</span>
+                    <span class="badge" th:text="${movie.language != null ? movie.language : 'Language TBA'}">Language</span>
+                    <span class="badge" th:text="${movie.duration + ' mins'}">Duration</span>
+                </div>
+                <p class="meta" th:text="${movie.description != null ? movie.description : 'No description added yet.'}">Description</p>
+                <div class="meta">
+                    <span class="highlight">Director:</span>
+                    <span th:text="${movie.director != null ? movie.director : 'Not added'}">Director</span>
+                </div>
+            </article>
+            <article class="card" th:if="${#lists.isEmpty(movies)}">
+                <h3>No movies yet</h3>
+                <p class="meta">Add movies through your API or database and they will appear here automatically.</p>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer class="footer shell">BookMyShow frontend built with Thymeleaf, Spring MVC, and your existing services.</footer>
+</body>
+</html>

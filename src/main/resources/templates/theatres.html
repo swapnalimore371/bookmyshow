@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow | Theatres</title>
+    <link rel="stylesheet" th:href="@{/css/site.css}">
+</head>
+<body>
+<header class="topbar">
+    <div class="shell">
+        <a class="brand" th:href="@{/}">
+            <strong>BOOKMYSHOW</strong>
+            <span>Theatre directory</span>
+        </a>
+        <nav class="nav">
+            <a th:href="@{/}">Home</a>
+            <a th:href="@{/movies}">Movies</a>
+            <a th:href="@{/shows}">Shows</a>
+        </nav>
+    </div>
+</header>
+
+<main class="shell section">
+    <div class="section-head">
+        <div>
+            <h2>Theatres</h2>
+            <p>Browse available cinema locations and configured screens.</p>
+        </div>
+    </div>
+    <div class="grid">
+        <article class="card" th:each="theatre : ${theatres}">
+            <h3 th:text="${theatre.name}">Theatre name</h3>
+            <p class="meta"><span class="highlight">City:</span> <span th:text="${theatre.city != null ? theatre.city : 'Not added'}">City</span></p>
+            <p class="meta"><span class="highlight">Address:</span> <span th:text="${theatre.address != null ? theatre.address : 'Address pending'}">Address</span></p>
+        </article>
+        <article class="card" th:if="${#lists.isEmpty(theatres)}">
+            <h3>No theatres found</h3>
+            <p class="meta">Add theatres first and they will show up here.</p>
+        </article>
+    </div>
+</main>
+</body>
+</html>

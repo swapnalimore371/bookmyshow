@@ -1,0 +1,457 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml
+Progress (1): 255 BProgress (2): 255 B | 249 B                           Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml (255 B at 158 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml
+Progress (2): 249 B | 375 B                           Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml (375 B at 3.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml (249 B at 151 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml
+Progress (1): 394 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml (394 B at 6.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 4.6 kBProgress (1): 9.7 kBProgress (1): 14 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 117 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 242 BProgress (2): 242 B | 3.1 kBProgress (2): 242 B | 7.7 kBProgress (2): 242 B | 12 kB                            Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml (242 B at 1.2 kB/s)
+Progress (1): 17 kBProgress (1): 20 kBProgress (1): 21 kBProgress (2): 21 kB | 398 B                           Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml (398 B at 219 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 138 kB/s)
+Progress (1): 234 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml (234 B at 124 B/s)
+[INFO] 
+[INFO] ---------------------< com.bookmyshow:BookMyShow >----------------------
+[INFO] Building BookMyShow 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.5:run (default-cli) > test-compile @ BookMyShow >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ BookMyShow ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 7 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ BookMyShow ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ BookMyShow ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ BookMyShow ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot:3.2.5:run (default-cli) < test-compile @ BookMyShow <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.5:run (default-cli) @ BookMyShow ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.2.5/spring-boot-buildpack-platform-3.2.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.2.5/spring-boot-loader-tools-3.2.5.jar
+Progress (1): 0.9/435 kBProgress (1): 2.3/435 kBProgress (1): 3.6/435 kBProgress (1): 5.0/435 kBProgress (1): 6.4/435 kBProgress (1): 7.7/435 kBProgress (1): 9.1/435 kBProgress (1): 10/435 kB Progress (1): 12/435 kBProgress (1): 13/435 kBProgress (1): 15/435 kBProgress (1): 16/435 kBProgress (1): 17/435 kBProgress (2): 17/435 kB | 0.9/272 kBProgress (2): 17/435 kB | 2.3/272 kBProgress (2): 19/435 kB | 2.3/272 kBProgress (2): 19/435 kB | 3.6/272 kBProgress (2): 20/435 kB | 3.6/272 kBProgress (2): 20/435 kB | 5.0/272 kBProgress (2): 21/435 kB | 5.0/272 kBProgress (2): 21/435 kB | 6.4/272 kBProgress (2): 23/435 kB | 6.4/272 kBProgress (2): 24/435 kB | 6.4/272 kBProgress (2): 24/435 kB | 7.7/272 kBProgress (2): 25/435 kB | 7.7/272 kBProgress (2): 25/435 kB | 8.2/272 kBProgress (2): 27/435 kB | 8.2/272 kBProgress (2): 28/435 kB | 8.2/272 kBProgress (2): 28/435 kB | 9.6/272 kBProgress (2): 30/435 kB | 9.6/272 kBProgress (2): 31/435 kB | 9.6/272 kBProgress (2): 32/435 kB | 9.6/272 kBProgress (2): 32/435 kB | 11/272 kB Progress (2): 34/435 kB | 11/272 kBProgress (2): 35/435 kB | 11/272 kBProgress (2): 36/435 kB | 11/272 kBProgress (2): 36/435 kB | 12/272 kBProgress (2): 38/435 kB | 12/272 kBProgress (2): 38/435 kB | 14/272 kBProgress (2): 39/435 kB | 14/272 kBProgress (2): 39/435 kB | 15/272 kBProgress (2): 41/435 kB | 15/272 kBProgress (2): 42/435 kB | 15/272 kBProgress (2): 42/435 kB | 16/272 kBProgress (2): 42/435 kB | 18/272 kBProgress (2): 42/435 kB | 19/272 kBProgress (2): 42/435 kB | 21/272 kBProgress (2): 42/435 kB | 22/272 kBProgress (2): 43/435 kB | 22/272 kBProgress (2): 43/435 kB | 23/272 kBProgress (2): 43/435 kB | 25/272 kBProgress (2): 45/435 kB | 25/272 kBProgress (2): 45/435 kB | 26/272 kBProgress (2): 45/435 kB | 27/272 kBProgress (2): 45/435 kB | 29/272 kBProgress (2): 46/435 kB | 29/272 kBProgress (2): 46/435 kB | 30/272 kBProgress (2): 46/435 kB | 31/272 kBProgress (2): 47/435 kB | 31/272 kBProgress (2): 47/435 kB | 33/272 kBProgress (2): 49/435 kB | 33/272 kBProgress (2): 50/435 kB | 33/272 kBProgress (2): 50/435 kB | 34/272 kBProgress (2): 51/435 kB | 34/272 kBProgress (2): 51/435 kB | 36/272 kBProgress (2): 51/435 kB | 37/272 kBProgress (2): 51/435 kB | 38/272 kBProgress (2): 51/435 kB | 40/272 kBProgress (2): 51/435 kB | 41/272 kBProgress (2): 51/435 kB | 42/272 kBProgress (2): 51/435 kB | 44/272 kBProgress (2): 51/435 kB | 45/272 kBProgress (2): 51/435 kB | 47/272 kBProgress (2): 51/435 kB | 48/272 kBProgress (2): 51/435 kB | 49/272 kBProgress (2): 51/435 kB | 51/272 kBProgress (2): 51/435 kB | 52/272 kBProgress (2): 51/435 kB | 56/272 kBProgress (2): 56/435 kB | 56/272 kBProgress (2): 56/435 kB | 60/272 kBProgress (2): 60/435 kB | 60/272 kBProgress (2): 60/435 kB | 65/272 kBProgress (2): 60/435 kB | 66/272 kBProgress (2): 64/435 kB | 66/272 kBProgress (2): 64/435 kB | 70/272 kBProgress (2): 68/435 kB | 70/272 kBProgress (2): 68/435 kB | 74/272 kBProgress (2): 73/435 kB | 74/272 kBProgress (2): 77/435 kB | 74/272 kBProgress (2): 77/435 kB | 78/272 kBProgress (2): 81/435 kB | 78/272 kBProgress (2): 81/435 kB | 82/272 kBProgress (2): 85/435 kB | 82/272 kBProgress (2): 85/435 kB | 87/272 kBProgress (2): 90/435 kB | 87/272 kBProgress (2): 94/435 kB | 87/272 kBProgress (2): 94/435 kB | 91/272 kBProgress (2): 94/435 kB | 95/272 kBProgress (2): 98/435 kB | 95/272 kBProgress (2): 102/435 kB | 95/272 kBProgress (2): 102/435 kB | 99/272 kBProgress (2): 102/435 kB | 104/272 kBProgress (2): 102/435 kB | 108/272 kBProgress (2): 102/435 kB | 112/272 kBProgress (2): 102/435 kB | 116/272 kBProgress (2): 102/435 kB | 121/272 kBProgress (2): 102/435 kB | 125/272 kBProgress (2): 106/435 kB | 125/272 kBProgress (2): 111/435 kB | 125/272 kBProgress (2): 115/435 kB | 125/272 kBProgress (2): 119/435 kB | 125/272 kBProgress (2): 119/435 kB | 129/272 kBProgress (2): 123/435 kB | 129/272 kBProgress (2): 123/435 kB | 133/272 kBProgress (2): 128/435 kB | 133/272 kBProgress (2): 128/435 kB | 137/272 kBProgress (2): 132/435 kB | 137/272 kBProgress (2): 132/435 kB | 142/272 kBProgress (2): 136/435 kB | 142/272 kBProgress (2): 136/435 kB | 146/272 kBProgress (2): 136/435 kB | 150/272 kBProgress (2): 140/435 kB | 150/272 kBProgress (2): 140/435 kB | 154/272 kBProgress (2): 145/435 kB | 154/272 kBProgress (2): 149/435 kB | 154/272 kBProgress (2): 149/435 kB | 156/272 kBProgress (2): 149/435 kB | 160/272 kBProgress (2): 153/435 kB | 160/272 kBProgress (2): 153/435 kB | 164/272 kBProgress (2): 155/435 kB | 164/272 kBProgress (2): 159/435 kB | 164/272 kBProgress (2): 159/435 kB | 168/272 kBProgress (2): 164/435 kB | 168/272 kBProgress (2): 164/435 kB | 173/272 kBProgress (2): 164/435 kB | 177/272 kBProgress (2): 168/435 kB | 177/272 kBProgress (2): 168/435 kB | 181/272 kBProgress (2): 172/435 kB | 181/272 kBProgress (2): 176/435 kB | 181/272 kBProgress (2): 176/435 kB | 185/272 kBProgress (2): 176/435 kB | 189/272 kBProgress (2): 176/435 kB | 194/272 kBProgress (2): 181/435 kB | 194/272 kBProgress (2): 181/435 kB | 197/272 kBProgress (2): 181/435 kB | 201/272 kBProgress (2): 181/435 kB | 205/272 kBProgress (2): 181/435 kB | 209/272 kBProgress (2): 181/435 kB | 214/272 kBProgress (2): 181/435 kB | 230/272 kBProgress (2): 185/435 kB | 230/272 kBProgress (2): 189/435 kB | 230/272 kBProgress (2): 193/435 kB | 230/272 kBProgress (2): 197/435 kB | 230/272 kBProgress (2): 202/435 kB | 230/272 kBProgress (2): 206/435 kB | 230/272 kBProgress (2): 210/435 kB | 230/272 kBProgress (2): 210/435 kB | 246/272 kBProgress (2): 210/435 kB | 263/272 kBProgress (2): 210/435 kB | 272 kB    Progress (2): 214/435 kB | 272 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.2.5/spring-boot-buildpack-platform-3.2.5.jar (272 kB at 593 kB/s)
+Progress (1): 219/435 kBProgress (1): 233/435 kBProgress (1): 235/435 kBProgress (1): 251/435 kBProgress (1): 268/435 kBProgress (1): 284/435 kBProgress (1): 301/435 kBProgress (1): 317/435 kBProgress (1): 333/435 kBProgress (1): 350/435 kBProgress (1): 364/435 kBProgress (1): 381/435 kBProgress (1): 397/435 kBProgress (1): 413/435 kBProgress (1): 430/435 kBProgress (1): 435 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.2.5/spring-boot-loader-tools-3.2.5.jar (435 kB at 911 kB/s)
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-04-12T14:40:23.269+05:30  INFO 1836 --- [  restartedMain] com.bookmyshow.BookMyShowApplication     : Starting BookMyShowApplication using Java 17.0.17 with PID 1836 (C:\Users\Quastech\Desktop\Java Notes\BookMyShow\target\classes started by Quastech in C:\Users\Quastech\Desktop\Java Notes\BookMyShow)
+2026-04-12T14:40:23.278+05:30  INFO 1836 --- [  restartedMain] com.bookmyshow.BookMyShowApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-04-12T14:40:23.462+05:30  INFO 1836 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-12T14:40:23.462+05:30  INFO 1836 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-12T14:40:25.715+05:30  INFO 1836 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-12T14:40:25.964+05:30  INFO 1836 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 225 ms. Found 7 JPA repository interfaces.
+2026-04-12T14:40:27.726+05:30  INFO 1836 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-12T14:40:27.759+05:30  INFO 1836 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-12T14:40:27.759+05:30  INFO 1836 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-12T14:40:27.913+05:30  INFO 1836 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-12T14:40:27.917+05:30  INFO 1836 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4451 ms
+2026-04-12T14:40:28.316+05:30  INFO 1836 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-12T14:40:28.523+05:30  INFO 1836 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-12T14:40:28.647+05:30  INFO 1836 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-12T14:40:29.286+05:30  INFO 1836 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-12T14:40:29.359+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-12T14:40:30.117+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7568ac8d
+2026-04-12T14:40:30.122+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-12T14:40:30.376+05:30  WARN 1836 --- [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-12T14:40:40.733+05:30  INFO 1836 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: create table bookings (id bigint not null auto_increment, booking_time datetime(6) not null, number_of_seats integer not null, status enum ('CONFIRMED','CANCELLED','PENDING') not null, total_amount float(53) not null, show_id bigint not null, user_id bigint not null, primary key (id)) engine=InnoDB
+Hibernate: create table movies (id bigint not null auto_increment, cast_members varchar(255), description TEXT, director varchar(255), duration integer not null, genre varchar(255), language varchar(255), poster_url varchar(255), rating float(53), release_date date, title varchar(255) not null, trailer_link varchar(255), primary key (id)) engine=InnoDB
+Hibernate: create table payments (id bigint not null auto_increment, amount float(53) not null, method varchar(255) not null, paid_at datetime(6), status enum ('SUCCESS','FAILED','PENDING','REFUNDED') not null, booking_id bigint not null, primary key (id)) engine=InnoDB
+Hibernate: create table screens (id bigint not null auto_increment, name varchar(255) not null, total_seats integer not null, theatre_id bigint not null, primary key (id)) engine=InnoDB
+Hibernate: alter table shows add column available_seats integer not null
+Hibernate: alter table shows add column ticket_price float(53) not null
+Hibernate: create table theatres (id bigint not null auto_increment, address varchar(255), city varchar(255), name varchar(255) not null, primary key (id)) engine=InnoDB
+Hibernate: alter table users add column role enum ('USER','ADMIN') not null
+Hibernate: alter table payments drop index UK_nuscjm6x127hkb15kcb8n56wo
+Hibernate: alter table payments add constraint UK_nuscjm6x127hkb15kcb8n56wo unique (booking_id)
+Hibernate: alter table bookings add constraint FK5f9847fuaqx7qe2xug4e5pky1 foreign key (show_id) references shows (id)
+Hibernate: alter table bookings add constraint FKeyog2oic85xg7hsu2je2lx3s6 foreign key (user_id) references users (id)
+Hibernate: alter table booking_seat add constraint FK376ijcuwemcna7br3gofnq6ya foreign key (booking_id) references bookings (id)
+Hibernate: alter table payments add constraint FKc52o2b1jkxttngufqp3t7jr3h foreign key (booking_id) references bookings (id)
+Hibernate: alter table screens add constraint FKomykyk08ts7cl7rwxp5qlaear foreign key (theatre_id) references theatres (id)
+Hibernate: alter table seat add constraint FKfumed0a6i85ao3dvvpjphrc52 foreign key (screen_id) references screens (id)
+Hibernate: alter table shows add constraint FKqdpwhiv5r3lx844pct0eudapk foreign key (movie_id) references movies (id)
+Hibernate: alter table shows add constraint FKl8acj48ghject9oq8aq8qjqmp foreign key (screen_id) references screens (id)
+Hibernate: alter table shows add constraint FKrebl1pi45k6pahj4ptueqqv3q foreign key (theatre_id) references theatres (id)
+2026-04-12T14:40:45.792+05:30  INFO 1836 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-12T14:40:47.408+05:30  INFO 1836 --- [  restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2026-04-12T14:40:48.124+05:30  INFO 1836 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a648135, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38cbccb1, org.springframework.security.web.context.SecurityContextHolderFilter@123c7767, org.springframework.security.web.header.HeaderWriterFilter@16ca45ff, org.springframework.web.filter.CorsFilter@4392c839, org.springframework.security.web.authentication.logout.LogoutFilter@35ba9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2228e491, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@27f9464a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fa7ccc1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28017e11, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@637e3c52, org.springframework.security.web.access.ExceptionTranslationFilter@740470da, org.springframework.security.web.access.intercept.AuthorizationFilter@448bc056]
+2026-04-12T14:40:48.860+05:30  INFO 1836 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-12T14:40:49.133+05:30  INFO 1836 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-04-12T14:40:49.162+05:30  INFO 1836 --- [  restartedMain] com.bookmyshow.BookMyShowApplication     : Started BookMyShowApplication in 26.924 seconds (process running for 28.962)
+========================================
+  BookMyShow App Started!
+  URL: http://localhost:8080
+========================================
+2026-04-12T14:41:21.974+05:30  INFO 1836 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-12T14:41:21.974+05:30  INFO 1836 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-12T14:41:21.974+05:30  INFO 1836 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+Hibernate: select m1_0.id,m1_0.cast_members,m1_0.description,m1_0.director,m1_0.duration,m1_0.genre,m1_0.language,m1_0.poster_url,m1_0.rating,m1_0.release_date,m1_0.title,m1_0.trailer_link from movies m1_0
+Hibernate: select t1_0.id,t1_0.address,t1_0.city,t1_0.name from theatres t1_0
+Hibernate: select s1_0.id,s1_0.available_seats,s1_0.movie_id,s1_0.screen_id,s1_0.show_time,s1_0.theatre_id,s1_0.ticket_price from shows s1_0
+Hibernate: select u1_0.id from users u1_0 where u1_0.email=? limit ?
+Hibernate: insert into users (email,name,password,phone,role) values (?,?,?,?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select m1_0.id,m1_0.cast_members,m1_0.description,m1_0.director,m1_0.duration,m1_0.genre,m1_0.language,m1_0.poster_url,m1_0.rating,m1_0.release_date,m1_0.title,m1_0.trailer_link from movies m1_0
+Hibernate: select t1_0.id,t1_0.address,t1_0.city,t1_0.name from theatres t1_0
+Hibernate: select s1_0.id,s1_0.available_seats,s1_0.movie_id,s1_0.screen_id,s1_0.show_time,s1_0.theatre_id,s1_0.ticket_price from shows s1_0
+Hibernate: select m1_0.id,m1_0.cast_members,m1_0.description,m1_0.director,m1_0.duration,m1_0.genre,m1_0.language,m1_0.poster_url,m1_0.rating,m1_0.release_date,m1_0.title,m1_0.trailer_link from movies m1_0
+Hibernate: select t1_0.id,t1_0.address,t1_0.city,t1_0.name from theatres t1_0
+Hibernate: select m1_0.id,m1_0.cast_members,m1_0.description,m1_0.director,m1_0.duration,m1_0.genre,m1_0.language,m1_0.poster_url,m1_0.rating,m1_0.release_date,m1_0.title,m1_0.trailer_link from movies m1_0
+Hibernate: select m1_0.id,m1_0.cast_members,m1_0.description,m1_0.director,m1_0.duration,m1_0.genre,m1_0.language,m1_0.poster_url,m1_0.rating,m1_0.release_date,m1_0.title,m1_0.trailer_link from movies m1_0
+Hibernate: select t1_0.id,t1_0.address,t1_0.city,t1_0.name from theatres t1_0
+Hibernate: select s1_0.id,s1_0.available_seats,s1_0.movie_id,s1_0.screen_id,s1_0.show_time,s1_0.theatre_id,s1_0.ticket_price from shows s1_0
+Hibernate: select m1_0.id,m1_0.cast_members,m1_0.description,m1_0.director,m1_0.duration,m1_0.genre,m1_0.language,m1_0.poster_url,m1_0.rating,m1_0.release_date,m1_0.title,m1_0.trailer_link from movies m1_0
+Hibernate: select t1_0.id,t1_0.address,t1_0.city,t1_0.name from theatres t1_0
+Hibernate: select s1_0.id,s1_0.available_seats,s1_0.movie_id,s1_0.screen_id,s1_0.show_time,s1_0.theatre_id,s1_0.ticket_price from shows s1_0
+Hibernate: select t1_0.id,t1_0.address,t1_0.city,t1_0.name from theatres t1_0
+Hibernate: select m1_0.id,m1_0.cast_members,m1_0.description,m1_0.director,m1_0.duration,m1_0.genre,m1_0.language,m1_0.poster_url,m1_0.rating,m1_0.release_date,m1_0.title,m1_0.trailer_link from movies m1_0
+Hibernate: select m1_0.id,m1_0.cast_members,m1_0.description,m1_0.director,m1_0.duration,m1_0.genre,m1_0.language,m1_0.poster_url,m1_0.rating,m1_0.release_date,m1_0.title,m1_0.trailer_link from movies m1_0
+Hibernate: select t1_0.id,t1_0.address,t1_0.city,t1_0.name from theatres t1_0
+Hibernate: select s1_0.id,s1_0.available_seats,s1_0.movie_id,s1_0.screen_id,s1_0.show_time,s1_0.theatre_id,s1_0.ticket_price from shows s1_0
+Hibernate: select s1_0.id,s1_0.available_seats,s1_0.movie_id,s1_0.screen_id,s1_0.show_time,s1_0.theatre_id,s1_0.ticket_price from shows s1_0
+Hibernate: select m1_0.id,m1_0.cast_members,m1_0.description,m1_0.director,m1_0.duration,m1_0.genre,m1_0.language,m1_0.poster_url,m1_0.rating,m1_0.release_date,m1_0.title,m1_0.trailer_link from movies m1_0
+Hibernate: select t1_0.id,t1_0.address,t1_0.city,t1_0.name from theatres t1_0
+Hibernate: select s1_0.id,s1_0.available_seats,s1_0.movie_id,s1_0.screen_id,s1_0.show_time,s1_0.theatre_id,s1_0.ticket_price from shows s1_0
+2026-04-12T15:04:02.263+05:30  INFO 1836 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 53 class path changes (0 additions, 52 deletions, 1 modification)
+2026-04-12T15:04:02.326+05:30  INFO 1836 --- [       Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-12T15:04:02.346+05:30  INFO 1836 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-12T15:04:02.456+05:30  INFO 1836 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-04-12T15:04:02.753+05:30  INFO 1836 --- [  restartedMain] com.bookmyshow.BookMyShowApplication     : Starting BookMyShowApplication using Java 17.0.17 with PID 1836 (C:\Users\Quastech\Desktop\Java Notes\BookMyShow\target\classes started by Quastech in C:\Users\Quastech\Desktop\Java Notes\BookMyShow)
+2026-04-12T15:04:02.753+05:30  INFO 1836 --- [  restartedMain] com.bookmyshow.BookMyShowApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-04-12T15:04:03.374+05:30  INFO 1836 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-12T15:04:03.376+05:30  INFO 1836 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2026-04-12T15:04:03.785+05:30  INFO 1836 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-12T15:04:03.789+05:30  INFO 1836 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-12T15:04:03.789+05:30  INFO 1836 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-12T15:04:03.880+05:30  INFO 1836 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-12T15:04:03.882+05:30  INFO 1836 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1122 ms
+2026-04-12T15:04:04.126+05:30  INFO 1836 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-12T15:04:04.136+05:30  INFO 1836 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-12T15:04:04.158+05:30  INFO 1836 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-12T15:04:04.162+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-04-12T15:04:04.184+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cd98814
+2026-04-12T15:04:04.184+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-04-12T15:04:04.188+05:30  WARN 1836 --- [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-12T15:04:04.234+05:30  INFO 1836 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-12T15:04:04.236+05:30  INFO 1836 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-12T15:04:04.352+05:30  INFO 1836 --- [  restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2026-04-12T15:04:04.782+05:30  WARN 1836 --- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 37fa99fd-5899-48ad-8812-36d3d80dea3c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-12T15:04:04.840+05:30  INFO 1836 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@425e1440, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@475186a9, org.springframework.security.web.context.SecurityContextHolderFilter@726d86e3, org.springframework.security.web.header.HeaderWriterFilter@7015e3ae, org.springframework.web.filter.CorsFilter@761afca9, org.springframework.security.web.csrf.CsrfFilter@7e2e7dd6, org.springframework.security.web.authentication.logout.LogoutFilter@489d8160, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@59bd18e2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@31a9da7e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@775e8d52, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@28152a02, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f2085b5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e7e5c8c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45906bed, org.springframework.security.web.access.ExceptionTranslationFilter@38052954, org.springframework.security.web.access.intercept.AuthorizationFilter@7d0f10a2]
+2026-04-12T15:04:04.896+05:30  INFO 1836 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-12T15:04:04.917+05:30  INFO 1836 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-04-12T15:04:04.931+05:30  INFO 1836 --- [  restartedMain] com.bookmyshow.BookMyShowApplication     : Started BookMyShowApplication in 2.255 seconds (process running for 1424.73)
+2026-04-12T15:04:04.942+05:30  INFO 1836 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - AnyNestedCondition 1 matched 2 did not; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'password'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'name'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+========================================
+  BookMyShow App Started!
+  URL: http://localhost:8080
+========================================
+2026-04-12T15:04:17.796+05:30  INFO 1836 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 16 class path changes (16 additions, 0 deletions, 0 modifications)
+2026-04-12T15:04:17.883+05:30  INFO 1836 --- [       Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-12T15:04:17.885+05:30  INFO 1836 --- [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-04-12T15:04:17.897+05:30  INFO 1836 --- [       Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-04-12T15:04:18.101+05:30  INFO 1836 --- [  restartedMain] com.bookmyshow.BookMyShowApplication     : Starting BookMyShowApplication using Java 17.0.17 with PID 1836 (C:\Users\Quastech\Desktop\Java Notes\BookMyShow\target\classes started by Quastech in C:\Users\Quastech\Desktop\Java Notes\BookMyShow)
+2026-04-12T15:04:18.101+05:30  INFO 1836 --- [  restartedMain] com.bookmyshow.BookMyShowApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-04-12T15:04:18.618+05:30  INFO 1836 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-12T15:04:18.637+05:30  INFO 1836 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2026-04-12T15:04:18.939+05:30  INFO 1836 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-12T15:04:18.941+05:30  INFO 1836 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-12T15:04:18.943+05:30  INFO 1836 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-12T15:04:19.013+05:30  INFO 1836 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-12T15:04:19.015+05:30  INFO 1836 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 910 ms
+2026-04-12T15:04:19.136+05:30  INFO 1836 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-12T15:04:19.143+05:30  INFO 1836 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-12T15:04:19.156+05:30  INFO 1836 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-12T15:04:19.158+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-04-12T15:04:19.172+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bb03b0e
+2026-04-12T15:04:19.172+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-04-12T15:04:19.176+05:30  WARN 1836 --- [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-12T15:04:19.212+05:30  WARN 1836 --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: com/bookmyshow/entity/Seat
+2026-04-12T15:04:19.213+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-04-12T15:04:19.215+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-04-12T15:04:19.217+05:30  INFO 1836 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-04-12T15:04:19.247+05:30  INFO 1836 --- [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-12T15:04:19.307+05:30 ERROR 1836 --- [  restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: com/bookmyshow/entity/Seat
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.bookmyshow.BookMyShowApplication.main(BookMyShowApplication.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: java.lang.NoClassDefFoundError: com/bookmyshow/entity/Seat
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3404) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2506) ~[na:na]
+	at org.hibernate.annotations.common.reflection.java.JavaXClass.getDeclaredMethodProperties(JavaXClass.java:137) ~[hibernate-commons-annotations-6.0.6.Final.jar:6.0.6.Final]
+	at org.hibernate.annotations.common.reflection.java.JavaXClass.getDeclaredProperties(JavaXClass.java:175) ~[hibernate-commons-annotations-6.0.6.Final.jar:6.0.6.Final]
+	at org.hibernate.annotations.common.reflection.java.JavaXClass.getDeclaredProperties(JavaXClass.java:167) ~[hibernate-commons-annotations-6.0.6.Final.jar:6.0.6.Final]
+	at org.hibernate.boot.model.internal.InheritanceState.determineDefaultAccessType(InheritanceState.java:259) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.internal.InheritanceState.getElementsToProcess(InheritanceState.java:215) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.internal.InheritanceState.postProcess(InheritanceState.java:160) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:348) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:237) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:423) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:256) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:279) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:322) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.bookmyshow.entity.Seat
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:469) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 45 common frames omitted
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-04-12T15:04:20.898+05:30  INFO 1836 --- [  restartedMain] com.bookmyshow.BookMyShowApplication     : Starting BookMyShowApplication using Java 17.0.17 with PID 1836 (C:\Users\Quastech\Desktop\Java Notes\BookMyShow\target\classes started by Quastech in C:\Users\Quastech\Desktop\Java Notes\BookMyShow)
+2026-04-12T15:04:20.898+05:30  INFO 1836 --- [  restartedMain] com.bookmyshow.BookMyShowApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-04-12T15:04:21.530+05:30  INFO 1836 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-12T15:04:21.601+05:30  INFO 1836 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 5 JPA repository interfaces.
+2026-04-12T15:04:21.879+05:30  INFO 1836 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-12T15:04:21.894+05:30  INFO 1836 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-12T15:04:21.895+05:30  INFO 1836 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-12T15:04:21.939+05:30  INFO 1836 --- [  restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-04-12T15:04:21.941+05:30  INFO 1836 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1037 ms
+2026-04-12T15:04:22.056+05:30  INFO 1836 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-12T15:04:22.064+05:30  INFO 1836 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-12T15:04:22.076+05:30  INFO 1836 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-12T15:04:22.080+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-04-12T15:04:22.088+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a13d733
+2026-04-12T15:04:22.092+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-04-12T15:04:22.096+05:30  WARN 1836 --- [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-12T15:04:22.601+05:30  INFO 1836 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-12T15:04:22.908+05:30  INFO 1836 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-12T15:04:23.216+05:30  INFO 1836 --- [  restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2026-04-12T15:04:23.504+05:30  WARN 1836 --- [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 065e933c-f0bb-4255-9fcc-6e9cd1b0db4d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-12T15:04:23.552+05:30  INFO 1836 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e048795, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a70a9b, org.springframework.security.web.context.SecurityContextHolderFilter@5c34642e, org.springframework.security.web.header.HeaderWriterFilter@10d5bead, org.springframework.web.filter.CorsFilter@34c87593, org.springframework.security.web.csrf.CsrfFilter@64663ba7, org.springframework.security.web.authentication.logout.LogoutFilter@785be8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@21024bcf, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@20af9094, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@68eb0f05, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@63e7f31c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@95ac70c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1db26559, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52e905a2, org.springframework.security.web.access.ExceptionTranslationFilter@3e455721, org.springframework.security.web.access.intercept.AuthorizationFilter@5219647a]
+2026-04-12T15:04:23.587+05:30  INFO 1836 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-12T15:04:23.615+05:30  INFO 1836 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-04-12T15:04:23.628+05:30  INFO 1836 --- [  restartedMain] com.bookmyshow.BookMyShowApplication     : Started BookMyShowApplication in 2.795 seconds (process running for 1443.427)
+2026-04-12T15:04:23.632+05:30  INFO 1836 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+========================================
+  BookMyShow App Started!
+  URL: http://localhost:8080
+========================================
+2026-04-12T15:04:25.079+05:30  INFO 1836 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 25 class path changes (25 additions, 0 deletions, 0 modifications)
+2026-04-12T15:04:25.109+05:30  INFO 1836 --- [      Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-12T15:04:25.111+05:30  INFO 1836 --- [      Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-04-12T15:04:25.117+05:30  INFO 1836 --- [      Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-04-12T15:04:25.349+05:30  INFO 1836 --- [  restartedMain] com.bookmyshow.BookMyShowApplication     : Starting BookMyShowApplication using Java 17.0.17 with PID 1836 (C:\Users\Quastech\Desktop\Java Notes\BookMyShow\target\classes started by Quastech in C:\Users\Quastech\Desktop\Java Notes\BookMyShow)
+2026-04-12T15:04:25.349+05:30  INFO 1836 --- [  restartedMain] com.bookmyshow.BookMyShowApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-04-12T15:04:25.951+05:30  INFO 1836 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-12T15:04:26.030+05:30  INFO 1836 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 7 JPA repository interfaces.
+2026-04-12T15:04:26.405+05:30  INFO 1836 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-12T15:04:26.407+05:30  INFO 1836 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-12T15:04:26.409+05:30  INFO 1836 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-12T15:04:26.463+05:30  INFO 1836 --- [  restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-04-12T15:04:26.463+05:30  INFO 1836 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1108 ms
+2026-04-12T15:04:26.605+05:30  INFO 1836 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-12T15:04:26.616+05:30  INFO 1836 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-12T15:04:26.629+05:30  INFO 1836 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-12T15:04:26.634+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2026-04-12T15:04:26.642+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a8afe3e
+2026-04-12T15:04:26.644+05:30  INFO 1836 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2026-04-12T15:04:26.646+05:30  WARN 1836 --- [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-12T15:04:27.172+05:30  INFO 1836 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-12T15:04:27.450+05:30  INFO 1836 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-12T15:04:27.836+05:30  INFO 1836 --- [  restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2026-04-12T15:04:28.039+05:30  INFO 1836 --- [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@60bed686, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37ccfadd, org.springframework.security.web.context.SecurityContextHolderFilter@4d2fb1fa, org.springframework.security.web.header.HeaderWriterFilter@3c9c015c, org.springframework.web.filter.CorsFilter@2b98ee98, org.springframework.security.web.authentication.logout.LogoutFilter@29ee3a3a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1bfc37c5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@439bea66, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a61f991, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45348785, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5120a631, org.springframework.security.web.access.ExceptionTranslationFilter@ff401d1, org.springframework.security.web.access.intercept.AuthorizationFilter@2d4f4d49]
+2026-04-12T15:04:28.212+05:30  INFO 1836 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-04-12T15:04:28.238+05:30  INFO 1836 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-04-12T15:04:28.252+05:30  INFO 1836 --- [  restartedMain] com.bookmyshow.BookMyShowApplication     : Started BookMyShowApplication in 2.987 seconds (process running for 1448.05)
+2026-04-12T15:04:28.257+05:30  INFO 1836 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' customUserDetailsService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+         - AnyNestedCondition 1 matched 2 did not; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'password'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'name'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+========================================
+  BookMyShow App Started!
+  URL: http://localhost:8080
+========================================
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  28:50 min
+[INFO] Finished at: 2026-04-12T15:08:52+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.5:run (default-cli) on project BookMyShow: Process terminated with exit code: -1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

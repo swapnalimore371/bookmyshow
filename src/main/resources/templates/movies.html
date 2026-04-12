@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow | Movies</title>
+    <link rel="stylesheet" th:href="@{/css/site.css}">
+</head>
+<body>
+<header class="topbar">
+    <div class="shell">
+        <a class="brand" th:href="@{/}">
+            <strong>BOOKMYSHOW</strong>
+            <span>Movie catalogue</span>
+        </a>
+        <nav class="nav">
+            <a th:href="@{/}">Home</a>
+            <a th:href="@{/theatres}">Theatres</a>
+            <a th:href="@{/shows}">Shows</a>
+            <a class="cta" th:href="@{/register}">Join</a>
+        </nav>
+    </div>
+</header>
+
+<main class="shell section">
+    <div class="section-head">
+        <div>
+            <h2>Movies</h2>
+            <p th:text="${#lists.size(movies) + ' titles currently available'}">0 titles</p>
+        </div>
+    </div>
+    <div class="grid">
+        <article class="card" th:each="movie : ${movies}">
+            <h3 th:text="${movie.title}">Movie title</h3>
+            <div class="badge-row">
+                <span class="badge" th:text="${movie.genre != null ? movie.genre : 'Genre TBA'}">Genre</span>
+                <span class="badge" th:text="${movie.language != null ? movie.language : 'Language TBA'}">Language</span>
+                <span class="badge" th:text="${movie.rating != null ? 'Rating ' + movie.rating : 'Rating N/A'}">Rating</span>
+            </div>
+            <p class="meta" th:text="${movie.description != null ? movie.description : 'No description available.'}">Description</p>
+            <p class="meta"><span class="highlight">Release:</span> <span th:text="${movie.releaseDate != null ? movie.releaseDate : 'TBA'}">Date</span></p>
+            <p class="meta"><span class="highlight">Cast:</span> <span th:text="${movie.cast != null ? movie.cast : 'Not added'}">Cast</span></p>
+        </article>
+        <article class="card" th:if="${#lists.isEmpty(movies)}">
+            <h3>No movies found</h3>
+            <p class="meta">Your `movies` table is empty right now.</p>
+        </article>
+    </div>
+</main>
+</body>
+</html>

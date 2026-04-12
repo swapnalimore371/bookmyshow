@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow | Register</title>
+    <link rel="stylesheet" th:href="@{/css/site.css}">
+</head>
+<body>
+<header class="topbar">
+    <div class="shell">
+        <a class="brand" th:href="@{/}">
+            <strong>BOOKMYSHOW</strong>
+            <span>Create your account</span>
+        </a>
+    </div>
+</header>
+
+<main class="shell auth-wrap">
+    <section class="auth-card">
+        <span class="eyebrow">Register</span>
+        <h1>Start booking with your own account.</h1>
+        <p class="meta">This form saves a user through your existing Spring service and password encoder.</p>
+
+        <div class="flash flash-error" th:if="${errorMessage}" th:text="${errorMessage}">Error</div>
+
+        <form th:action="@{/register}" th:object="${user}" method="post">
+            <div class="field">
+                <label for="name">Full Name</label>
+                <input id="name" type="text" th:field="*{name}" required>
+            </div>
+            <div class="field">
+                <label for="email">Email</label>
+                <input id="email" type="email" th:field="*{email}" required>
+            </div>
+            <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" type="text" th:field="*{phone}">
+            </div>
+            <div class="field">
+                <label for="password">Password</label>
+                <input id="password" type="password" th:field="*{password}" required>
+            </div>
+            <div class="field">
+                <label for="role">Role</label>
+                <select id="role" th:field="*{role}">
+                    <option value="USER">USER</option>
+                    <option value="ADMIN">ADMIN</option>
+                </select>
+            </div>
+            <button class="button button-primary" type="submit">Create account</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>

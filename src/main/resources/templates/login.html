@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow | Login</title>
+    <link rel="stylesheet" th:href="@{/css/site.css}">
+</head>
+<body>
+<header class="topbar">
+    <div class="shell">
+        <a class="brand" th:href="@{/}">
+            <strong>BOOKMYSHOW</strong>
+            <span>Sign in with Spring Security</span>
+        </a>
+    </div>
+</header>
+
+<main class="shell auth-wrap">
+    <section class="auth-card">
+        <span class="eyebrow">Login</span>
+        <h1>Welcome back.</h1>
+        <p class="meta">Use the email and password you registered. Spring Security handles the authentication POST.</p>
+
+        <div class="flash flash-success" th:if="${successMessage}" th:text="${successMessage}">Success</div>
+        <div class="flash flash-error" th:if="${param.error}">Invalid email or password.</div>
+        <div class="flash flash-success" th:if="${param.logout}">You have been logged out.</div>
+
+        <form th:action="@{/login}" method="post">
+            <div class="field">
+                <label for="username">Email</label>
+                <input id="username" name="username" type="email" required>
+            </div>
+            <div class="field">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" required>
+            </div>
+            <button class="button button-primary" type="submit">Login</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>

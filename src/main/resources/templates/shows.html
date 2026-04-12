@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow | Shows</title>
+    <link rel="stylesheet" th:href="@{/css/site.css}">
+</head>
+<body>
+<header class="topbar">
+    <div class="shell">
+        <a class="brand" th:href="@{/}">
+            <strong>BOOKMYSHOW</strong>
+            <span>Show timetable</span>
+        </a>
+        <nav class="nav">
+            <a th:href="@{/}">Home</a>
+            <a th:href="@{/movies}">Movies</a>
+            <a th:href="@{/theatres}">Theatres</a>
+        </nav>
+    </div>
+</header>
+
+<main class="shell section">
+    <div class="section-head">
+        <div>
+            <h2>Shows</h2>
+            <p>Current show schedule from your configured movie, theatre, and screen data.</p>
+        </div>
+    </div>
+    <div class="grid">
+        <article class="card" th:each="show : ${shows}">
+            <h3 th:text="${show.movie != null ? show.movie.title : 'Untitled show'}">Show movie</h3>
+            <div class="badge-row">
+                <span class="badge" th:text="${show.theatre != null ? show.theatre.name : 'Theatre N/A'}">Theatre</span>
+                <span class="badge" th:text="${show.screen != null ? show.screen.name : 'Screen N/A'}">Screen</span>
+            </div>
+            <p class="meta"><span class="highlight">Time:</span> <span th:text="${show.showTime != null ? #temporals.format(show.showTime, 'dd MMM yyyy, hh:mm a') : 'TBA'}">Time</span></p>
+            <p class="meta"><span class="highlight">Ticket Price:</span> <span th:text="${'Rs. ' + show.ticketPrice}">Rs.</span></p>
+            <p class="meta"><span class="highlight">Available Seats:</span> <span th:text="${show.availableSeats}">0</span></p>
+        </article>
+        <article class="card" th:if="${#lists.isEmpty(shows)}">
+            <h3>No shows scheduled</h3>
+            <p class="meta">Create show records and the timetable will appear here.</p>
+        </article>
+    </div>
+</main>
+</body>
+</html>
